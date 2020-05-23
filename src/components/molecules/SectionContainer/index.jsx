@@ -40,7 +40,7 @@ let SectionContainer = ({
   header = header ? <h4 className="mb-2">{header}</h4> : "";
 
   // want to add a information panel for gallery
-  
+  // Please add this panel
   return (
     <>
       {title}
