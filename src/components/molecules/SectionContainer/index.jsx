@@ -39,6 +39,8 @@ let SectionContainer = ({
   title = title ? <h2 className="mb-3">{title}</h2> : "";
   header = header ? <h4 className="mb-2">{header}</h4> : "";
 
+  // want to add a information panel for gallery
+  
   return (
     <>
       {title}
