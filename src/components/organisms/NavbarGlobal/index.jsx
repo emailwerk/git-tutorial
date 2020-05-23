@@ -18,7 +18,7 @@ import {
 // React Logo
 import { ReactComponent as ReactLogo } from "../../../assets/content/React-icon.svg";
 
-class Navbar extends React.Component {
+class NavbarGlobal extends React.Component {
   state = {
     collapseID: "",
   };
@@ -79,7 +79,7 @@ class Navbar extends React.Component {
   }
 }
 
-export default Navbar;
+export default NavbarGlobal;
 
 /**
  * SPDX-License-Identifier: (EUPL-1.2)

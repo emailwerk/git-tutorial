@@ -1,8 +1,8 @@
 //> Components
 // Import all components to export them for easy access from parent components
-import PageRoot from "./PageRoot";
+import AudioParty from "./AudioParty";
 
-export { PageRoot };
+export { AudioParty };
 
 /**
  * SPDX-License-Identifier: (EUPL-1.2)

@@ -7,21 +7,48 @@ import React from "react";
 import { MDBFreeBird, MDBCol, MDBRow, MDBCardBody, MDBIcon } from "mdbreact";
 
 //> Components
+//> Components
+/**
+ * Footer: Global Footer
+ * Navbar: Global navigation bar
+ */
+import { AudioParty } from "../atoms";
+
 /**
  * Footer: Global Footer
  * Navbar: Global navigation bar
  */
 import { SectionContainer } from "../molecules";
 
+/**
+ * Footer: Global Footer
+ * Navbar: Global navigation bar
+ */
+import {
+  HeaderBanner,
+  HeaderFull,
+  SectionMotd,
+  SectionSharingan,
+  SectionSpaceship,
+  SectionCommunity,
+} from "../organisms";
+
 //> Images
 // Logo of React
 import ReactLogo from "../../assets/content/React-icon.svg";
 
-class HomePage extends React.Component {
+class PageRoot extends React.Component {
   scrollToTop = () => window.scrollTo(0, 0);
   render() {
     return (
       <>
+        {/*<HeaderBanner />*/}
+        <HeaderFull />
+        {/*<SectionMotd />*/}
+        <SectionSharingan />
+        <AudioParty />
+        <SectionSpaceship />
+        <SectionCommunity />
         <SectionContainer noBorder noBottom>
           <MDBFreeBird className="mt-3 mb-5">
             <MDBRow>
@@ -64,7 +91,7 @@ class HomePage extends React.Component {
   }
 }
 
-export default HomePage;
+export default PageRoot;
 
 /**
  * SPDX-License-Identifier: (EUPL-1.2)

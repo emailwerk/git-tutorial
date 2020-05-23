@@ -6,7 +6,7 @@ import React from "react";
 // "Material Design for Bootstrap" is a great UI design framework
 import { MDBFooter, MDBRow, MDBCol, MDBContainer } from "mdbreact";
 
-class Footer extends React.Component {
+class FooterGlobal extends React.Component {
   render() {
     return (
       <MDBFooter color="agency-dark" className="font-small pt-4 mt-4">
@@ -73,7 +73,7 @@ class Footer extends React.Component {
   }
 }
 
-export default Footer;
+export default FooterGlobal;
 
 /**
  * SPDX-License-Identifier: (EUPL-1.2)

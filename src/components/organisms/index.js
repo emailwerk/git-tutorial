@@ -1,9 +1,24 @@
 //> Components
 // Import all components to export them for easy access from parent components
-import Footer from "./Footer";
-import Navbar from "./Navbar";
+import FooterGlobal from "./FooterGlobal";
+import NavbarGlobal from "./NavbarGlobal";
+import HeaderBanner from "./HeaderBanner";
+import HeaderFull from "./HeaderFull";
+import SectionMotd from "./SectionMotd";
+import SectionSharingan from "./SectionSharingan";
+import SectionCommunity from "./SectionCommunity";
+import SectionSpaceship from "./SectionSpaceship";
 
-export { Footer, Navbar };
+export {
+  NavbarGlobal,
+  FooterGlobal,
+  HeaderFull,
+  HeaderBanner,
+  SectionMotd,
+  SectionSharingan,
+  SectionSpaceship,
+  SectionCommunity,
+};
 
 /**
  * SPDX-License-Identifier: (EUPL-1.2)
