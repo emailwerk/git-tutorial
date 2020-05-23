@@ -31,10 +31,13 @@ class App extends React.Component {
 
 export default App;
 
+/* This fish greatly improves the asthetic of this code
+
   ;,//;,    ,;/
  o:::::::;;///
 >::::::::;;\\\
   ''\\\\\'" ';\
+*/
 
 /**
  * SPDX-License-Identifier: (EUPL-1.2)
