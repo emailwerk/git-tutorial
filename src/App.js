@@ -31,6 +31,11 @@ class App extends React.Component {
 
 export default App;
 
+  ;,//;,    ,;/
+ o:::::::;;///
+>::::::::;;\\\
+  ''\\\\\'" ';\
+
 /**
  * SPDX-License-Identifier: (EUPL-1.2)
  * Copyright © 2018-2019 Florian Kleber
