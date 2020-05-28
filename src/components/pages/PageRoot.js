@@ -27,6 +27,7 @@ import { SectionContainer } from "../molecules";
 import {
   HeaderBanner,
   HeaderFull,
+  HeaderSynthwave,
   SectionMotd,
   SectionSharingan,
   SectionSpaceship,
@@ -43,7 +44,8 @@ class PageRoot extends React.Component {
     return (
       <>
         {/*<HeaderBanner />*/}
-        <HeaderFull />
+        {/*<HeaderFull />*/}
+        <HeaderSynthwave />
         {/*<SectionMotd />*/}
         <SectionSharingan />
         <AudioParty />

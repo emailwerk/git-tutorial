@@ -10,8 +10,8 @@ import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 import "./site-header.scss";
 
 //> Images
-import StarEuleIMG from "../../../assets/content/full/StarEule.png";
-import StarKrokoIMG from "../../../assets/content/full/StarKroko.png";
+import StarEuleIMG from "../../../assets/content/full/star_eule.png";
+import StarKrokoIMG from "../../../assets/content/full/star_kroko.png";
 
 //> Data
 const value = {

@@ -4,6 +4,7 @@ import FooterGlobal from "./FooterGlobal";
 import NavbarGlobal from "./NavbarGlobal";
 import HeaderBanner from "./HeaderBanner";
 import HeaderFull from "./HeaderFull";
+import HeaderSynthwave from "./HeaderSynthwave";
 import SectionMotd from "./SectionMotd";
 import SectionSharingan from "./SectionSharingan";
 import SectionCommunity from "./SectionCommunity";
@@ -12,8 +13,9 @@ import SectionSpaceship from "./SectionSpaceship";
 export {
   NavbarGlobal,
   FooterGlobal,
-  HeaderFull,
   HeaderBanner,
+  HeaderFull,
+  HeaderSynthwave,
   SectionMotd,
   SectionSharingan,
   SectionSpaceship,
